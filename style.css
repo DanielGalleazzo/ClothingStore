@@ -1,0 +1,10 @@
+
+.InformacoesHeader {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial;
+  font-size: 30px;
+  color: black;
+}
