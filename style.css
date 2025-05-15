@@ -1,10 +1,27 @@
 
-.InformacoesHeader {
-  background-color: white;
+.barra-lateral {
+  width: 200px;
+  height: 100vh;
+  background-color: black;
+  color: white;
   padding: 20px;
-  display: flex;
-  justify-content: space-around;
-  font-family: Arial;
-  font-size: 30px;
-  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.barra-lateral h2 {
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+}
+.simbolo{
+  width: 40px;
+}
+.apresentacao {
+  margin-left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin-left: 50px;
 }
