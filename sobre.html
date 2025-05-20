@@ -23,7 +23,7 @@
     <p>Confira alguns de nossos endereços</p>
     
     <div class="Endereco">
-  <iframe 
+  <iframe id="meuIframe"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.88140303214!2d-46.6085691!3d-23.656478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce428f5f669687%3A0x7a4b573500ee48!2sPra%C3%A7a%20do%20Carmo%2C%20Qd.%202%2C%2013%20-%20Centro%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009010-020!5e0!3m2!1spt-BR!2sbr!4v1684963778422!5m2!1spt-BR!2sbr"
     allowfullscreen="" 
     loading="lazy" 
@@ -31,10 +31,27 @@
   </iframe>
 </div>
     </div>
-    <button id="BotaoDeAlternarMapa" >
+    <button onclick="trocarLink()" id="BotaoDeAlternarMapa" >
         Alternar endereço
         <span class="arrow">&#9658;</span>
       </button>
+      <script>
+    const links = [
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.88140303214!2d-46.6085691!3d-23.656478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce428f5f669687%3A0x7a4b573500ee48!2sPraça%20do%20Carmo!5e0!3m2!1spt-BR!2sbr!4v1684963778422!5m2!1spt-BR!2sbr",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29232.582270919815!2d-46.6006904!3d-23.673355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce430d3ff3f2e9%3A0xa7a2b2c34a681ec3!2sNike%20Factory%20S%C3%A3o%20Bernardo!5e0!3m2!1spt-BR!2sbr!4v1747763592451!5m2!1spt-BR!2sbr",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29246.69525352208!2d-46.70190112089841!3d-23.610181399999977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b12f2805175%3A0x18c9662d5728d8e2!2sNike%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1747763692508!5m2!1spt-BR!2sbr",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29260.87567877445!2d-46.67368312089844!3d-23.546545000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5853ca25ca85%3A0x25e71df1dc257e17!2sNike%20Factory%20Light!5e0!3m2!1spt-BR!2sbr!4v1747763760934!5m2!1spt-BR!2sbr",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29256.791915966514!2d-46.53843212089845!3d-23.564888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67b2b96df2ad%3A0xa8ad64a10c0dafcd!2sNike%20Unite%20Aricanduva!5e0!3m2!1spt-BR!2sbr!4v1747763811253!5m2!1spt-BR!2sbr"
+
+    ];
+
+    let indiceAtual = 0;
+
+    function trocarLink() {
+      indiceAtual = (indiceAtual + 1) % links.length;
+      document.getElementById("meuIframe").src = links[indiceAtual];
+    }
+  </script>
       <div class = "TelefoneContato" >
 <h1>Telefones de contato</h1>
     <p class = "TextoContato" >Santo André - Centro: (11) 2189-0598</p>
