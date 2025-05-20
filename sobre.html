@@ -1,64 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Atletas</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class = "barra-lateral">
-    <h2>Menu <img class ="simbolo" src = "https://i.pinimg.com/736x/d5/c7/2c/d5c72cb18497d1ea65f29f0857a8c760.jpg" alt = "logo da nike"></h2>
+  <div class="barra-lateral">
+    <h2>Menu <img class="simbolo" src="https://i.pinimg.com/736x/d5/c7/2c/d5c72cb18497d1ea65f29f0857a8c760.jpg" alt="logo da nike" /></h2>
     <ul>
-    <li><a href="inicio.html" style="color:white;">Início</a></li>
+      <li><a href="inicio.html" style="color:white;">Início</a></li>
       <li><a href="#" style="color:white;">Lançamentos/Novidades</a></li>
       <li><a href="#" style="color:white;">Sustentabilidade</a></li>
       <li><a href="atletas.html" style="color:white;">Atletas</a></li>
       <li><a href="#" style="color:white;">Comunidade</a></li>
-      <li><a href="sobre.html" style="color:white;">Sobre</a></li>
+      <li><a href="sobre.html" style="color:white;">Endereço/Sobre</a></li>
       <li><a href="#" style="color:white;">Contato</a></li>
     </ul>
-    </div>
-    <div class="Sobre">
+  </div>
+
+  <div class="Sobre">
     <h1>Sobre nós</h1>
     <p>Confira alguns de nossos endereços</p>
-    
-    <div class="Endereco">
-  <iframe id="meuIframe"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.88140303214!2d-46.6085691!3d-23.656478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce428f5f669687%3A0x7a4b573500ee48!2sPra%C3%A7a%20do%20Carmo%2C%20Qd.%202%2C%2013%20-%20Centro%2C%20Santo%20Andr%C3%A9%20-%20SP%2C%2009010-020!5e0!3m2!1spt-BR!2sbr!4v1684963778422!5m2!1spt-BR!2sbr"
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
-    </div>
-    <button onclick="trocarLink()" id="BotaoDeAlternarMapa" >
-        Alternar endereço
-        <span class="arrow">&#9658;</span>
-      </button>
-      <script>
-    const links = [
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.88140303214!2d-46.6085691!3d-23.656478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce428f5f669687%3A0x7a4b573500ee48!2sPraça%20do%20Carmo!5e0!3m2!1spt-BR!2sbr!4v1684963778422!5m2!1spt-BR!2sbr",
-      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29232.582270919815!2d-46.6006904!3d-23.673355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce430d3ff3f2e9%3A0xa7a2b2c34a681ec3!2sNike%20Factory%20S%C3%A3o%20Bernardo!5e0!3m2!1spt-BR!2sbr!4v1747763592451!5m2!1spt-BR!2sbr",
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29246.69525352208!2d-46.70190112089841!3d-23.610181399999977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b12f2805175%3A0x18c9662d5728d8e2!2sNike%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1747763692508!5m2!1spt-BR!2sbr",
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29260.87567877445!2d-46.67368312089844!3d-23.546545000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5853ca25ca85%3A0x25e71df1dc257e17!2sNike%20Factory%20Light!5e0!3m2!1spt-BR!2sbr!4v1747763760934!5m2!1spt-BR!2sbr",
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29256.791915966514!2d-46.53843212089845!3d-23.564888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67b2b96df2ad%3A0xa8ad64a10c0dafcd!2sNike%20Unite%20Aricanduva!5e0!3m2!1spt-BR!2sbr!4v1747763811253!5m2!1spt-BR!2sbr"
 
+    <div class="Endereco">
+      <iframe
+        id="meuIframe"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29236.351154696167!2d-46.526167!3d-23.6565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce428f5f669687%3A0x7a4b573500ee48!2sNike%20Factory%20Santo%20Andr%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1747765154655!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+
+  <br />
+
+  <button onclick="AvancarLink()" id="BotaoDeAlternarMapa">
+    Avançar endereço <span class="arrow">&#9658;</span>
+  </button>
+
+  <button onclick="RetornarLink()" id="BotaoDeAlternarMapa1">
+    Retornar endereço <span class="arrow">&#9668;</span>
+  </button>
+
+  <script>
+    const links = [
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29236.351154696167!2d-46.526167!3d-23.6565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce428f5f669687%3A0x7a4b573500ee48!2sNike%20Factory%20Santo%20Andr%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1747765154655!5m2!1spt-BR!2sbr",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58467.07864356149!2d-46.575044!3d-23.669076!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce430d3ff3f2e9%3A0xa7a2b2c34a681ec3!2sNike%20Factory%20S%C3%A3o%20Bernardo!5e0!3m2!1spt-BR!2sbr!4v1747765208179!5m2!1spt-BR!2sbr",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58493.39068553906!2d-46.666882!3d-23.610181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b12f2805175%3A0x18c9662d5728d8e2!2sNike%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1747765245745!5m2!1spt-BR!2sbr",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58521.7513575489!2d-46.638664!3d-23.546545!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5853ca25ca85%3A0x25e71df1dc257e17!2sNike%20Factory%20Light!5e0!3m2!1spt-BR!2sbr!4v1747765288330!5m2!1spt-BR!2sbr",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58513.58383193303!2d-46.503413!3d-23.564888!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67b2b96df2ad%3A0xa8ad64a10c0dafcd!2sNike%20Unite%20Aricanduva!5e0!3m2!1spt-BR!2sbr!4v1747765328486!5m2!1spt-BR!2sbr",
     ];
 
-    let indiceAtual = 0;
+    let index = 0;
 
-    function trocarLink() {
-      indiceAtual = (indiceAtual + 1) % links.length;
-      document.getElementById("meuIframe").src = links[indiceAtual];
+    function atualizarIframe() {
+      const iframe = document.getElementById("meuIframe");
+      iframe.src = links[index];
+    }
+
+    function AvancarLink() {
+      index = (index + 1) % links.length;
+      atualizarIframe();
+    }
+
+    function RetornarLink() {
+      index = (index - 1 + links.length) % links.length;
+      atualizarIframe();
     }
   </script>
-      <div class = "TelefoneContato" >
-<h1>Telefones de contato</h1>
-    <p class = "TextoContato" >Santo André - Centro: (11) 2189-0598</p>
-</div>
-<div class = "TextoInformativo" >
-  <p> A Nike começou em 1964, originalmente chamada Blue Ribbon Sports, fundada por Phil Knight e seu treinador Bill Bowerman. No início, eles vendiam tênis da marca japonesa Onitsuka Tiger (atual ASICS).<br> Em 1971, decidiram criar a própria marca e lançaram a Nike, nome inspirado na deusa grega da vitória. O famoso logo “Swoosh” foi criado por uma estudante de design por apenas 35 dólares.<br> A Nike cresceu rapidamente graças a inovações em tênis esportivos, marketing agressivo e parcerias com atletas famosos, como Michael Jordan. Hoje, é uma das maiores marcas de artigos esportivos do mundo.</p>
-</div>
 
+  <div class="TelefoneContato">
+    <h1>Telefones de contato</h1>
+    <p class="TextoContato">
+      Santo André - Centro: (11) 2189-0598 <br />
+      Nike Factory São Bernardo - (11) 2189-0596 <br />
+      Nike Ibirapuera - (11) 3475-0511 <br />
+    </p>
+  </div>
+
+  <div class="TextoInformativo">
+    <p>
+      A Nike começou em 1964, originalmente chamada Blue Ribbon Sports,
+      fundada por Phil Knight e seu treinador Bill Bowerman. No início,
+      eles vendiam tênis da marca japonesa Onitsuka Tiger (atual ASICS).<br />
+      Em 1971, decidiram criar a própria marca e lançaram a Nike, nome
+      inspirado na deusa grega da vitória. O famoso logo “Swoosh” foi criado
+      por uma estudante de design por apenas 35 dólares.<br />
+      A Nike cresceu rapidamente graças a inovações em tênis esportivos,
+      marketing agressivo e parcerias com atletas famosos, como Michael
+      Jordan. Hoje, é uma das maiores marcas de artigos esportivos do mundo.
+    </p>
+  </div>
 </body>
 </html>
