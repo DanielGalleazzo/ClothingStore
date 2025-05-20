@@ -62,3 +62,31 @@ body {
   height: 100%;
   border: 0;
 }
+#BotaoDeAlternarMapa {
+      padding: 10px 20px;
+      background-color: gray;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+      margin-left: 1500px; 
+    }
+    #BotaoDeAlternarMapa:hover {
+      background-color: gray;
+    }
+
+
+  .TextoInformativo {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+    margin-top: 500px;
+    color: gray;
+
+  }
+  .TelefoneContato {
+  margin-left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .TextoContato {
+    font-size: large;
+  }
