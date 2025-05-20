@@ -102,3 +102,7 @@ body {
   .TextoContato {
     font-size: large;
   }
+.Contato {
+   margin-left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
