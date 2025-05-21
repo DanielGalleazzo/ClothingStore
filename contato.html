@@ -27,12 +27,17 @@
   <br>
   <div class="TelefoneContato">
     <h1>Telefones de contato</h1>
-    <p class="TextoContato">
-      Santo André - Centro: (11) 2189-0598   <br>
-      Nike Factory São Bernardo - (11) 2189-0596   <br />
-      Nike Ibirapuera - (11) 3475-0511  <br/>
-    </p>
+    <span> Santo andré -</span>
+    <span id="contato1">(11) 2189-0598</span> 
+    <a href="#" role="button" onClick="copyIpPublisher()" style="padding: .12rem .2rem !important; font-size: .56em !important;">Copiar</a>
   </div>
+  <script>
+    function copyIpPublisher(){
+    let tl_sel = document.getElementById('contato1').innerHTML;
+    navigator.clipboard.writeText(tl_sel);
+    console.log('Copiado '+ tl_sel + ' para a Área de Trânsferência...');
+  }
+  </script>
 </body>
 </body>
 </html>
