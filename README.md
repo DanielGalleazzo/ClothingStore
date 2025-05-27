@@ -5,7 +5,18 @@ Uma página web de loja de roupas fictícia desenvolvida com HTML e CSS.
 
 ## 🧰 Tecnologias Utilizadas
 HTML5
+
+
+
+
 CSS3
+
+
+
+
+
+
+
 JavaScript (básico)
 
 ---
