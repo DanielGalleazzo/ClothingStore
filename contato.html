@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Título da Página</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
 
 </head>
 <body>
@@ -29,15 +30,25 @@
     <h1>Telefones de contato</h1>
     <span> Santo andré -</span>
     <span id="contato1">(11) 2189-0598</span> 
-    <a href="#" role="button" onClick="copyIpPublisher()" style="padding: .12rem .2rem !important; font-size: .56em !important;">Copiar</a>
+    <a href="#" role="button" onClick="copyIpPublisher1()" style="padding: .12rem .2rem !important; font-size: .56em !important;">Copiar</a>
+    <br>
+    <span> São Bernardo -</span>
+    <span id ="contato2">(11)2189-0596</span>
+    <a href="#" role="button" onClick="copyIpPublisher2()" style="padding: .12rem .2rem !important; font-size: .56em !important;">Copiar</a>
+    <br>
+    <span> Nike Ibirapuera -</span>
+    <span id ="contato3">(11)3475-0511</span>
+    <a href="#" role="button" onClick="copyIpPublisher3()" style="padding: .12rem .2rem !important; font-size: .56em !important;">Copiar</a>
+    <br>
+    <span> Nike Centro de São Paulo -</span>
+    <span id ="contato4">(11)2189-0587</span>
+    <a href="#" role="button" onClick="copyIpPublisher4()" style="padding: .12rem .2rem !important; font-size: .56em !important;">Copiar</a>
+    <br>
+
+    
+
   </div>
-  <script>
-    function copyIpPublisher(){
-    let tl_sel = document.getElementById('contato1').innerHTML;
-    navigator.clipboard.writeText(tl_sel);
-    console.log('Copiado '+ tl_sel + ' para a Área de Trânsferência...');
-  }
-  </script>
+  
 </body>
 </body>
 </html>
