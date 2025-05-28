@@ -106,3 +106,20 @@ body {
    margin-left: 200px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.TemaAssunto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#botaoenviaremail{
+  border-radius: 50px;
+   width  : 785px;
+   height: 45px;
+   
+}
+#TextAssunto {
+  padding: 10px;
+  border-radius: 5px;
+}
