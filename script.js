@@ -45,4 +45,26 @@ function copyIpPublisher4() {
       atualizarIframe();
     }
 
-
+    //////////////////////////////
+    function abrirnikeDunkAzul() {
+      window.open('nikeDunkAzul.html', '_blank'); 
+    }
+   const imagens = [
+  'https://artwalk.vtexassets.com/arquivos/ids/570918-1200-auto?v=638696067474200000&width=1200&height=auto&aspect=true',
+  'https://artwalk.vtexassets.com/arquivos/ids/570919-1200-auto?v=638696068728500000&width=1200&height=auto&aspect=true',
+  'https://artwalk.vtexassets.com/arquivos/ids/570920-1200-auto?v=638696068907570000&width=1200&height=auto&aspect=true',
+  'https://artwalk.vtexassets.com/arquivos/ids/570921-1200-auto?v=638696069410770000&width=1200&height=auto&aspect=true'
+];
+let indiceAtual = 0;
+function mostrarImagem() {
+  document.getElementById('imagemProdutoTENISNIKEDUNK').src = imagens[indiceAtual];
+}
+function avancarImagem() {
+  indiceAtual = (indiceAtual + 1) % imagens.length;
+  mostrarImagem();
+}
+function voltarImagem() {
+  indiceAtual = (indiceAtual - 1 + imagens.length) % imagens.length;
+  mostrarImagem();
+}
+window.onload = mostrarImagem;;

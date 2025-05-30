@@ -52,6 +52,7 @@ body {
   overflow: hidden;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
 }
 
 .Endereco iframe {
@@ -123,3 +124,73 @@ body {
   padding: 10px;
   border-radius: 5px;
 }
+ .NoticiasComunidade {
+     margin-left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  #tituloComunidade{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+  }
+  #tituloCR7 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+  #bike1CR7 {
+    width: 600px;
+    margin-left: 500px;
+    margin-top: 30px;
+  }
+  .Lancamentos{
+  margin-left: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .nikeDunkAzul{
+    height: 250px;
+    margin-left: 200px;
+    width: 250px;
+  }
+  #nikeDunkAzulTXT {
+    height: 250px;
+    margin-left: 200px;
+  }
+  #nikeDunkAzulBTN {
+  margin-left: 25px;
+    width: 80px;
+    height: 40px;
+    margin-top: 30px;
+  }
+  #tituloTenis{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  #precoTenis {
+    margin-top: 25px;
+    margin-left: 150px;
+    font-size: 28px;
+  }
+  #precoTenisAntigo{
+    margin-left: 150px;
+    font-size: 28px;
+    text-decoration: line-through;
+  }
+  #imagemProduto{
+      width: 800px;
+      height: 600px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      margin-left: 250px;
+      margin-top: 30px;
+  }
+
+  #voltarIMGNIKEDUNKAZUL {
+    margin-left: 100px;
+    height: 100px;
+    width: 200px;
+  }
+  #avancarIMGNIKEDUNKAZUL{
+    height: 100px;
+    width: 200px;
+  }
