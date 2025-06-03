@@ -68,3 +68,26 @@ function voltarImagem() {
   mostrarImagem();
 }
 window.onload = mostrarImagem;;
+
+
+//////////////////////////////
+function abrirnikeCamisaPretaJordan(){
+  window.open('michaeljordanpreta.html', '_blank')
+}
+const imagensJordanPreta = [
+  'https://imgcentauro-a.akamaihd.net/1200x1200/96822202A6.jpg',
+  'https://imgcentauro-a.akamaihd.net/800x800/96822202A1.jpg'
+];
+let indiceAtualJordan = 0;
+function mostrarImagem() {
+  document.getElementById('imagemProdutoJORDANPRETA').src = imagensJordanPreta[indiceAtualJordan];
+}
+function avancarImagem1() {
+  indiceAtualJordan = (indiceAtualJordan + 1) % imagensJordanPreta.length;
+  mostrarImagem();
+}
+function voltarImagem1() {
+  indiceAtualJordan = (indiceAtualJordan - 1 + imagensJordanPreta.length) % imagensJordanPreta.length;
+  mostrarImagem();
+}
+window.onload = mostrarImagem;;

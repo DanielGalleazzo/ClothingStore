@@ -194,3 +194,41 @@ body {
     height: 100px;
     width: 200px;
   }
+#nikeCamisetaPretaJordanBTN {
+margin-left: 25px;
+    width: 80px;
+    height: 40px;
+    margin-top: 30px;
+}
+#tituloJordanPreta {
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#precoJordanAntiga {
+    margin-left: 150px;
+    font-size: 28px;
+    text-decoration: line-through;
+}
+#precoJordan{
+margin-top: 25px;
+    margin-left: 150px;
+    font-size: 28px;
+}
+#voltarIMGJORDANPRETA{
+  height: 100px;
+    width: 200px;
+}
+#imagemProdutoTENISNIKEDUNK{
+width: 800px;
+      height: 600px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      margin-left: 250px;
+      margin-top: 30px;
+}
+#avancarIMGJORDANPRETA{
+   height: 100px;
+    width: 200px;
+}
